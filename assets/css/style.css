@@ -7,12 +7,15 @@
 .navbar-custom .nav-link {
     color: #3b2f2f;
 }
-
+.navbar-custom .nav-link.active {
+    font-weight: bold;
+}
 .navbar {
     position: sticky;
     top: 0;
     z-index: 1000;
 }
+
 
 /* Hero section */
 .hero-section {
