@@ -1,0 +1,90 @@
+
+/*Navbar section*/
+
+.navbar-custom {
+    color: #3b2f2f;
+}
+.navbar-custom .nav-link {
+    color: #3b2f2f;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Hero section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png') no-repeat center center;
+    background-size: cover;
+    color: #ffebd4;
+    padding: 100px 0;
+}
+.hero-section h1 {
+    font-family: 'Handlee', cursive;
+    color: #ffebd4;
+}
+#contact .btn {
+    color: #3b2f2f;
+}
+
+/* Services section */
+
+/* Set height for images */
+.services-section .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+/* Add space between hero and services section */
+.services-section {
+    margin-top: 70px; /* Adjust the value as needed */
+}
+
+.services-section h2,
+h3 {
+    font-family: 'Handlee', cursive;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
+}
+header .hero-section {
+    height: 50vh; 
+    background-color: #6F4E37; 
+    color: #FFEBD4;
+}
+main .container img {
+    max-width: 100%; 
+    height: auto;
+}
+
+/* Wellness section */
+
+h2 {
+    font-family: 'Handlee', cursive;
+}
+.thanks {
+    font-family: 'Handlee', cursive;
+}
+
+/* Testimonials section */
+
+h2 {
+    font-family: 'Handlee', cursive;
+}
+img {
+    width: 100px; height: 100px; object-fit: cover;
+}
+
+
+/*Footer section*/
+.footer {
+    background-color: #6F4E37;    
+}
+p {
+    color: #FFEBD4
+}
+a {
+    color: #FFEBD4;
+}
