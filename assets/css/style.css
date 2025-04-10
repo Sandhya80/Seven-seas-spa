@@ -19,17 +19,18 @@
 
 /* Hero section */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/hero.png') no-repeat center center;
     background-size: cover;
-    color: #ffebd4;
+    color: #FFEBD4;
     padding: 100px 0;
 }
+
 .hero-section h1 {
     font-family: 'Handlee', cursive;
-    color: #ffebd4;
 }
-#contact .btn {
-    color: #3b2f2f;
+
+.btn {
+    color: #3B2F2F;
 }
 
 /* Services section */
