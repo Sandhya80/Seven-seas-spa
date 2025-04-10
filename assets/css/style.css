@@ -1,39 +1,54 @@
 
-/*Navbar section*/
 
-.navbar-custom {
-    color: #3b2f2f;
+/* General styles */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Handlee', cursive;
 }
-.navbar-custom .nav-link {
-    color: #3b2f2f;
-}
-.navbar-custom .nav-link.active {
-    font-weight: bold;
-}
+
+/*Navbar-section*/
 .navbar {
     position: sticky;
     top: 0;
     z-index: 1000;
 }
+.navbar-custom {
+    color: #3B2F2F;
+}
+.navbar-custom .nav-link {
+    color: #3B2F2F;
+}
+.navbar-custom .nav-link.active {
+    font-weight: bold;
+}
 
 
-/* Hero section */
-.hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/hero.png') no-repeat center center;
+/* body-section */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    margin: 2rem 0;
+}
+
+
+/* Hero-section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #FFEBD4;
-    padding: 100px 0;
+    padding: 8rem 0;
 }
-
-.hero-section h1 {
-    font-family: 'Handlee', cursive;
-}
-
 .btn {
     color: #3B2F2F;
 }
 
-/* Services section */
+/* Services-section */
 
 /* Set height for images */
 .services-section .card-img-top {
@@ -91,4 +106,42 @@ p {
 }
 a {
     color: #FFEBD4;
+}
+
+/* Footer */
+.footer {
+    margin-top: auto;
+    background-color: #6F4E37;
+    color: #FFEBD4;
+}
+
+.footer i.bi {
+    color: #FFEBD4;
+}
+
+/* Navigation */
+.nav-item.active .nav-link {
+    color: #000000;
+    font-weight: bolder;
+}
+
+/* Cards */
+.card {
+    border: none;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Testimonial Images */
+.testimonial-image {
+    width: 100px;
+    height: 100px;
+}
+
+/* Rounded Images */
+.rounded-image {
+    border-radius: 15px;
 }
